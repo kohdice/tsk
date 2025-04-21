@@ -1,0 +1,24 @@
+version: "2"
+linters:
+  default: "none"
+  enable:
+    - "errcheck"
+    - "govet"
+    - "ineffassign"
+    - "staticcheck"
+    - "unused"
+  exclusions:
+    warn-unused: true
+formatters:
+  enable:
+    - "gci"
+    - "gofmt"
+    - "gofumpt"
+    - "goimports"
+    - "golines"
+  settings:
+    goimports:
+      local-prefixes:
+        - "github.com/kohdice/tsk"
+run:
+  timeout: "5m"
