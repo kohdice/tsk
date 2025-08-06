@@ -1,0 +1,10 @@
+[package]
+name = "tsk"
+version = "0.1.0"
+authors = ["kohdice <kohdice.biz@gmail.com>"]
+edition = "2024"
+rust-version = "1.88"
+license = "MIT"
+repository = "https://github.com/kohdice/tsk"
+
+[dependencies]
